@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color: #d6d6d2;
+}
+
+/* Navigation Bar */
+
+span.navbar-brand {
+    background-color: teal;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: bold;
+    /* margin-left: 50px; */
+    padding: 10px;
+}
+
+.logout {
+    text-align: right;
+}
+
+/* Sections */
+
+.about, 
+.contact,
+.portfolio {
+    /* width: 800px; */
+    width: 75%;
+}
+
+.portfolio {
+    /* width: 800px; */
+    width: 80%;
+}
+
+.contact {
+    /* height: 500px; */
+    height: 50%;
+}
+
+
+.card {
+    background-color: white;
+    /* margin: 50px 65px 50px 65px; */
+    padding: 30px 20px 10px 20px;
+    margin-top: 50px;
+}
+
+.portfolio-card {
+    background-color: rgb(207, 226, 225)
+    /* width: 500px; */
+}
+
+h1 {
+    color: teal;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.35em;
+}
+
+.my-info {
+    font-size: 1em;
+}
+
+.project-info {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    
+}
+
+label {
+    color: #8d8d8c;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 85%;
+}
+
+.placeholder {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: teal;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+.a-button {
+    color: white;
+}
+
+.project {
+    /* height: 250px;
+    width: 500px; */
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
