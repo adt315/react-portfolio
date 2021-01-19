@@ -1,0 +1,16 @@
+form.contact {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.contact button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
+
+button {
+  background-color: teal;
+  width: 100px;
+  margin-top: 10px;
+  color: white;
+}

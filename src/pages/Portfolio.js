@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import API from "../utils/API";
 import Card from "../components/Card";
-import Alert from "../components/Alert";
 
-class Discover extends Component {
+class Portfolio extends Component {
   state = {
     image: "",
     match: false,
@@ -39,15 +37,15 @@ class Discover extends Component {
     this.loadNextDog();
   };
 
-  loadNextDog = () => {
-    API.getRandomDog()
-      .then(res =>
-        this.setState({
-          image: res.data.message
-        })
-      )
-      .catch(err => console.log(err));
-  };
+  // loadNextDog = () => {
+  //   API.getRandomDog()
+  //     .then(res =>
+  //       this.setState({
+  //         image: res.data.message
+  //       })
+  //     )
+  //     .catch(err => console.log(err));
+  // };
 
   render() {
     return (
@@ -60,12 +58,9 @@ class Discover extends Component {
         <h1 className="text-center">
           Made friends with {this.state.matchCount} pups so far!
         </h1>
-        <Alert style={{ opacity: this.state.match ? 1 : 0 }} type="success">
-          Yay! That Pup Liked You Too!!!
-        </Alert>
       </div>
     );
   }
 }
 
-export default Discover;
+export default Portfolio;

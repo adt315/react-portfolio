@@ -9,49 +9,48 @@ body {
 
 /* Navigation Bar */
 
-span.navbar-brand {
-    background-color: teal;
+.navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", serif;
     font-weight: bold;
-    /* margin-left: 50px; */
+    margin-left: 50px; 
     padding: 10px;
 }
 
-.logout {
+/* .logout {
     text-align: right;
-}
+}  */
 
 /* Sections */
 
-.about, 
+/* .about, 
 .contact,
 .portfolio {
     /* width: 800px; */
-    width: 75%;
-}
+    /* width: 75%; */
+/* }  */
 
-.portfolio {
+/* .portfolio { */
     /* width: 800px; */
-    width: 80%;
-}
+    /* width: 80%; */
+/* } */
 
-.contact {
+/* .contact { */
     /* height: 500px; */
-    height: 50%;
-}
+    /* height: 50%;
+} */
 
 
-.card {
-    background-color: white;
+/* .card {
+    background-color: white; */
     /* margin: 50px 65px 50px 65px; */
-    padding: 30px 20px 10px 20px;
+    /* padding: 30px 20px 10px 20px;
     margin-top: 50px;
-}
+} */
 
-.portfolio-card {
-    background-color: rgb(207, 226, 225)
+/* .portfolio-card {
+    background-color: rgb(207, 226, 225) */
     /* width: 500px; */
-}
+/* } */
 
 h1 {
     color: teal;
@@ -61,23 +60,22 @@ h1 {
 
 p {
     font-size: 1.35em;
-}
+} 
 
-.my-info {
+/* .my-info {
     font-size: 1em;
-}
+} */
 
-.project-info {
+/* .project-info {
     font-size: 1em;
     text-align: center;
-    color: black;
-    
-}
-
+    color: black;  
+} */
+/* 
 label {
     color: #8d8d8c;
     font-weight: bold;
-}
+} */
 
 .form-control {
     width: 85%;
@@ -100,10 +98,11 @@ label {
     color: white;
 }
 
-.project {
+/* .project {    */
     /* height: 250px;
     width: 500px; */
-    width: 100%;
+    /* width: 100%;
     margin-top: 60px;
     margin-bottom: 10px;
-}
+} */ 
+

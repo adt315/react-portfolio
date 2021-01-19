@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function SearchResults(props) {
+function ContactResults(props) {
   return (
-    <ul className="list-group search-results">
+    <ul className="list-group contact-results">
       {props.results.map(result => (
         <li key={result} className="list-group-item">
           <img alt="Dog" src={result} className="img-fluid" />
@@ -13,4 +13,4 @@ function SearchResults(props) {
   );
 }
 
-export default SearchResults;
+export default ContactResults;
