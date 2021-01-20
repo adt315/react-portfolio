@@ -2,12 +2,9 @@
     box-sizing: border-box;
   }
 
-
 body {
     background-color: #d6d6d2;
 }
-
-/* Navigation Bar */
 
 .navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", serif;
@@ -15,19 +12,6 @@ body {
     margin-left: 50px; 
     padding: 10px;
 }
-
-/* .logout {
-    text-align: right;
-}  */
-
-/* Sections */
-
-/* .about, 
-.contact,
-.portfolio {
-    /* width: 800px; */
-    /* width: 75%; */
-/* }  */
 
 /* .portfolio { */
     /* width: 800px; */
@@ -56,6 +40,13 @@ h1 {
     color: teal;
     font-family: "Palatino Linotype", "Book Antiqua", serif;
     font-weight: bold;
+}
+
+h5 {
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p {
@@ -194,3 +185,14 @@ body {
   /* .project-image {
     size:50%;
   } */
+
+  .contact-card {
+    text-align: center;
+    background-color: rgb(252, 238, 233);
+    width: 50rem;
+    margin: 20px auto;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 100ms ease-in-out;
+  }
