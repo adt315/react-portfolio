@@ -7,9 +7,10 @@ function createEntry(emojiTerm) {
   return (
     <Entry
       key={emojiTerm.id}
-      emoji={emojiTerm.emoji}
+      img={emojiTerm.img}
       name={emojiTerm.name}
       description={emojiTerm.meaning}
+      description2={emojiTerm.meaning2}
     />
   );
 }
@@ -17,8 +18,8 @@ function createEntry(emojiTerm) {
 function Portfolio() {
   return (
     <div>
-      <h1>
-        <span>emojipedia</span>
+      <h1 class="text-center">
+        My Projects
       </h1>
       <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
     </div>
