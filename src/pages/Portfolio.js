@@ -1,12 +1,28 @@
 import React from "react";
-// import Project from "../components/Project";
+import Entry from "../components/Entry";
+import emojipedia from "../emojipedia";
+
+
+function createEntry(emojiTerm) {
+  return (
+    <Entry
+      key={emojiTerm.id}
+      emoji={emojiTerm.emoji}
+      name={emojiTerm.name}
+      description={emojiTerm.meaning}
+    />
+  );
+}
 
 function Portfolio() {
-    return (
-      <div>
-        <h1 className="text-center">My Projects</h1>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <h1>
+        <span>emojipedia</span>
+      </h1>
+      <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
+    </div>
+  );
+}
 
 export default Portfolio;
