@@ -1,4 +1,4 @@
-const emojipedia = [
+const project = [
   {
     id: 1,
     img:"/timed-quiz-screenshot-png",
@@ -43,4 +43,4 @@ const emojipedia = [
   },
 ];
 
-export default emojipedia;
+export default project;

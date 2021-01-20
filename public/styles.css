@@ -1,198 +1,122 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background-color: #d6d6d2;
+  background-color: #d6d6d2;
 }
 
 .navbar-brand {
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
-    font-weight: bold;
-    margin-left: 50px; 
-    padding: 10px;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 10px;
 }
 
-/* .portfolio { */
-    /* width: 800px; */
-    /* width: 80%; */
-/* } */
-
-/* .contact { */
-    /* height: 500px; */
-    /* height: 50%;
-} */
-
-
-/* .card {
-    background-color: white; */
-    /* margin: 50px 65px 50px 65px; */
-    /* padding: 30px 20px 10px 20px;
-    margin-top: 50px;
-} */
-
-/* .portfolio-card {
-    background-color: rgb(207, 226, 225) */
-    /* width: 500px; */
-/* } */
-
 h1 {
-    color: teal;
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
-    font-weight: bold;
+  color: teal;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-weight: bold;
 }
 
 h5 {
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p {
-    font-size: 1.35em;
-} 
-
-/* .my-info {
-    font-size: 1em;
-} */
-
-/* .project-info {
-    font-size: 1em;
-    text-align: center;
-    color: black;  
-} */
-/* 
-label {
-    color: #8d8d8c;
-    font-weight: bold;
-} */
-/* 
-.form-control {
-    width: 85%;
-} */
+  font-size: 1.35em;
+}
 
 .placeholder {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 30px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
 }
 
 .btn {
-    background-color: teal;
-    width: 100px;
-    margin-top: 10px;
-    color: white;
+  background-color: teal;
+  width: 100px;
+  margin-top: 10px;
+  color: white;
 }
 
 .a-button {
-    color: white;
+  color: white;
 }
 
-/* .project {    */
-    /* height: 250px;
-    width: 500px; */
-    /* width: 100%;
-    margin-top: 60px;
-    margin-bottom: 10px;
-} */ 
-
-/*  */
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    line-height: 1.666;
-    background: #c0d2d4;
-    color: #555;
-  }
-  
-  /* h1 {
-    font-weight: 900;
-    font-size: 500%;
-    text-align: center;
-    margin-top: 4rem;
-    color: #fff;
-    line-height: 1.2;
-  } */
-  
-  /* h1 span {
-    padding: 5px 15px;
-    background: #2ec2b0;
-  } */
-  
-  .dictionary {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 4rem auto;
-    max-width: 90%;
-  }
-  
-  .dictionary > .term {
-    text-align: center;
-    width: 20rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-radius: 3px;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: all 100ms ease-in-out;
-  }
-  
-  .dictionary > .term > dt {
-    margin-bottom: 1rem;
-  }
-  
-  dt {
-    color: teal;
-    line-height: 1;
-  }
-  
-  dt span {
-    font-size: 150%;
-    /* font-weight: 900; */
-  }
-  
-  /* .emoji {
-    margin: 0 auto 20px;
-    display: block;
-    font-size: 400%;
-  } */
-  
-  dd {
-    font-size: 92.5%;
-    margin-left: 0;
-  }
-  
-  dd dt {
-    margin-top: 1rem;
-    margin-bottom: 0.25rem;
-    font-weight: 600;
-    font-size: inherit;
-  }
-  
-  dd dl {
-    font-size: 90%;
-    margin: 1rem auto 0 auto;
-    letter-spacing: 0.33px;
-    max-width: 15rem;
-  }
-  
-  dd dl .term {
-    margin-bottom: 1rem;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.666;
+  background: #c0d2d4;
+  color: #555;
+}
 
-  /* .project-image {
-    size:50%;
-  } */
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
 
-  .contact-card {
-    text-align: center;
-    background-color: rgb(252, 238, 233);
-    width: 50rem;
-    margin: 20px auto;
-    padding: 2rem;
-    border-radius: 3px;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-    transition: all 100ms ease-in-out;
-  }
+.dictionary > .term {
+  text-align: center;
+  width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+dt {
+  color: teal;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 150%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+.contact-card {
+  text-align: center;
+  background-color: rgb(252, 238, 233);
+  width: 50rem;
+  margin: 20px auto;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 100ms ease-in-out;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Entry from "../components/Entry";
-import emojipedia from "../emojipedia";
+import project from "../project";
 
 
 function createEntry(emojiTerm) {
@@ -21,7 +21,7 @@ function Portfolio() {
       <h1 className="text-center">
         My Projects
       </h1>
-      <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
+      <dl className="dictionary">{project.map(createEntry)}</dl>
     </div>
   );
 }
