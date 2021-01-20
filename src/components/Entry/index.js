@@ -3,13 +3,12 @@ import React from "react";
 function Entry(props) {
   return (
     <div className="term">
+      <dd>{props.img}</dd>
       <dt>
-        <span className="emoji" role="img" aria-label="Tense Biceps">
-          {props.emoji}
-        </span>
         <span>{props.name}</span>
       </dt>
       <dd>{props.description}</dd>
+      <dd>{props.description2}</dd>
     </div>
   );
 }

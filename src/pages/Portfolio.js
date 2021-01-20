@@ -18,7 +18,7 @@ function createEntry(emojiTerm) {
 function Portfolio() {
   return (
     <div>
-      <h1 class="text-center">
+      <h1 className="text-center">
         My Projects
       </h1>
       <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
