@@ -25,9 +25,6 @@ function About() {
             <p>
             Currently I live in Connecticut with my husband and toddler son, Owen.  In my free time I enjoy making jewelry and crafts and teaching jewelry-making classes to people of all ages.  
             </p>
-            <p>
-            To learn more about me, please check out my <a target="_blank" href="../public/Resume.pdf">resume.</a>
-            </p>
           </Col>
         </Row>
       </Container>

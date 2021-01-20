@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Resume from "./components/Resume";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
         </Wrapper>
         <Footer />
       </div>
